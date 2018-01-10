@@ -1,0 +1,28 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+	align-items: baseline;
+    list-style: none;
+}
+p{
+    font-size: 14px;
+    color: gray;
+}
+h2{
+    padding-top: 113px;
+    padding-left: 56px;
+    z-index: 1000;
+    margin-bottom: 200px; 
+}
+ul :hover{
+    color:black;
+}
+button{
+    border: none;
+    }
+img{
+    position: absolute;
+    z-index: -1000;
+    height: 100%;
+    width: 100%
+}
